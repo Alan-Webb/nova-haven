@@ -1,2 +1,12 @@
 # nova-haven
-Real Estate Website
+
+real estate website
+
+## Built with
+
+- React
+- Tailwindcss
+
+## Author
+
+Alan Webb
