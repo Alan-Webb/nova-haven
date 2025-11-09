@@ -1,5 +1,5 @@
-import logo from "./logo.svg";
-import logo_dark from "./logo_dark.svg";
+import logo from "./logo.webp";
+import logoDark from "./logoDark.webp";
 import headerImg from "./headerImg.webp";
 import brandImg from "./brandImg.webp";
 import propertyImg1 from "./propertyImg1.webp";
@@ -14,77 +14,79 @@ import profileImg3 from "./profileImg3.webp";
 
 export const assets = {
 	logo,
-	logo_dark,
+	logoDark,
 	headerImg,
 	brandImg,
 	propertyImg1,
 	propertyImg2,
 	propertyImg3,
 	propertyImg4,
+	propertyImg5,
+	propertyImg6,
 };
 
 export const projectsData = [
 	{
-		title: "Skyline Haven",
-		price: "$2,50,000",
-		location: "California",
+		title: "Aethelgard Sky Suites",
+		price: "€12M",
+		location: "Norway, Earth",
 		image: propertyImg1,
 	},
 	{
-		title: "Vista Verde",
-		price: "$2,50,000",
-		location: "San Francisco",
+		title: "The Methane Shores Lodge",
+		price: "€34M",
+		location: "Titan, Saturn's Moon",
 		image: propertyImg2,
 	},
 	{
-		title: "Serenity Suites",
-		price: "$2,50,000",
-		location: "Chicago",
+		title: "The Olympus View Estate",
+		price: "€23M",
+		location: "Pavonis Mons, Mars",
 		image: propertyImg3,
 	},
 	{
-		title: "Central Square",
-		price: "$2,50,000",
-		location: "Los Angeles",
+		title: "Ecliptica Glacier Villa",
+		price: "€46M",
+		location: "Pluto",
 		image: propertyImg4,
 	},
 	{
-		title: "Vista Verde",
-		price: "$2,50,000",
-		location: "San Francisco",
+		title: "Nebula Heights",
+		price: "€38M",
+		location: "Europa, Jupiter's Moon",
 		image: propertyImg5,
 	},
 	{
-		title: "Serenity Suites",
-		price: "$2,50,000",
-		location: "Chicago",
+		title: "Serenity Falls Habitat",
+		price: "€18M",
+		location: "Cloud City of Venus, Upper Atmosphere",
 		image: propertyImg6,
 	},
 ];
 
 export const testimonialsData = [
 	{
-		name: "Donald Jackman",
-		title: "Marketing Manager",
+		name: "Kai Nakamura",
+		title: "Chief of Ops, Interplanetary Development Authority",
 		image: profileImg1,
-		alt: "Portrait of Donald Jackman",
+		alt: "Portrait of Kai Nakamura",
 		rating: 5,
-		text: "From the very first meeting, they understood my vision and helped me find the perfect property. Their attention to detail and commitment to client satisfaction is unmatched.",
+		text: "I needed a solid investment, and the team found me an incredible deal on The Crimson Pinnacle. Their knowledge of the Martian property market, including terraforming projections, was unmatched. Trust them to secure your off-world assets.",
 	},
 	{
-		name: "Richard Nelson",
-		title: "UI/UX Designer",
+		name: "Jax Korman",
+		title: "Bio-Dome Architect, Jupiter Mining Corp",
 		image: profileImg2,
-		alt: "Portrait of Richard Nelson",
+		alt: "Portrait of Jax Korman",
 		rating: 4,
-		text: "From the very first meeting, they understood my vision and helped me find the perfect property. Their attention to detail and commitment to client satisfaction is unmatched.",
+		text: "My corporate relocation from Earth to the Jovian system was daunting. Nova Haven Realty handled everything—from gravity-acclimation specs to orbital permits. A flawless, stress-free experience.",
 	},
 	{
-		name: "James Washington",
-		title: "Co-Founder",
+		name: "Dr. Aria Selene ",
+		title: "Lead Xenobotanist, Mars Colony 3",
 		image: profileImg3,
-		alt: "Portrait of James Washington",
+		alt: "Portrait of Dr. Aria Selene ",
 		rating: 5,
-		text: "From the very first meeting, they understood my vision and helped me find the perfect property. Their attention to detail and commitment to client satisfaction is unmatched.",
+		text: "As a Xenobotanist, I spend my life studying alien flora. I needed a serene and inspiring home base, and Nova Haven found me the perfect spot. My Martian villa is more than I could have ever dreamed of. Waking up to the twin suns filtering through the crimson canyons is pure magic.",
 	},
 ];
