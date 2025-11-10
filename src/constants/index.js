@@ -1,31 +1,22 @@
-import logo from "./logo.webp";
-import logoDark from "./logoDark.webp";
-import headerImg from "./headerImg.webp";
-import brandImg from "./brandImg.webp";
-import propertyImg1 from "./propertyImg1.webp";
-import propertyImg2 from "./propertyImg2.webp";
-import propertyImg3 from "./propertyImg3.webp";
-import propertyImg4 from "./propertyImg4.webp";
-import propertyImg5 from "./propertyImg5.webp";
-import propertyImg6 from "./propertyImg6.webp";
-import profileImg1 from "./profileImg1.webp";
-import profileImg2 from "./profileImg2.webp";
-import profileImg3 from "./profileImg3.webp";
+import propertyImg1 from "../assets/propertyImg1.webp";
+import propertyImg2 from "../assets/propertyImg2.webp";
+import propertyImg3 from "../assets/propertyImg3.webp";
+import propertyImg4 from "../assets/propertyImg4.webp";
+import propertyImg5 from "../assets/propertyImg5.webp";
+import propertyImg6 from "../assets/propertyImg6.webp";
+import profileImg1 from "../assets/profileImg1.webp";
+import profileImg2 from "../assets/profileImg2.webp";
+import profileImg3 from "../assets/profileImg3.webp";
 
-export const assets = {
-	logo,
-	logoDark,
-	headerImg,
-	brandImg,
-	propertyImg1,
-	propertyImg2,
-	propertyImg3,
-	propertyImg4,
-	propertyImg5,
-	propertyImg6,
-};
+export const LINKS = [
+	{href: "#about", label: "About"},
+	{href: "#projects", label: "Projects"},
+	{href: "#skills", label: "Skills"},
+	{href: "#testimonials", label: "Testimonials"},
+	{href: "#contact", label: "Contact"},
+];
 
-export const projectsData = [
+export const testimonialData = [
 	{
 		title: "Aethelgard Sky Suites",
 		price: "€12M",
