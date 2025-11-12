@@ -1,5 +1,5 @@
 import {useState} from "react";
-// import {logo} from "../assets/logo.webp";
+import Logo from "../assets/logo.webp";
 import {LINKS} from "../constants";
 import {FaBars, FaTimes} from "react-icons/fa";
 
@@ -33,11 +33,16 @@ const Navbar = () => {
 				<div className="mx-auto hidden lg:flex items-center justify-center bg-stone-300 border-b border-black py-3 backdrop-blur-lg">
 					<div className="flex items-center justify-between gap-6">
 						<div>
-							<a href="#">
-								<p className="uppercase me-36 hover:text-stone-600">
+							<div>
+								<img
+									src={Logo}
+									alt="Nova Haven logo"
+									className="inline-block h-6 w-6 me-2"
+								/>
+								<p className="inline-block uppercase me-36 hover:text-stone-600">
 									Nova Haven
 								</p>
-							</a>
+							</div>
 						</div>
 						<div>
 							<ul className="flex items-center gap-4">
