@@ -9,7 +9,7 @@ import profileImg2 from "../assets/profileImg2.webp";
 import profileImg3 from "../assets/profileImg3.webp";
 
 export const LINKS = [
-	{href: "#about", label: "About"},
+	{href: "#home", label: "Home"},
 	{href: "#projects", label: "Projects"},
 	{href: "#skills", label: "Skills"},
 	{href: "#testimonials", label: "Testimonials"},

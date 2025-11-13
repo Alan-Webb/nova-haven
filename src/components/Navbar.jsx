@@ -39,9 +39,11 @@ const Navbar = () => {
 									alt="Nova Haven logo"
 									className="inline-block h-6 w-6 me-2"
 								/>
-								<p className="inline-block uppercase me-36 hover:text-stone-600">
+								<a
+									href="#"
+									className="inline-block uppercase me-36 hover:text-stone-600 cursor-pointer">
 									Nova Haven
-								</p>
+								</a>
 							</div>
 						</div>
 						<div>
@@ -51,7 +53,7 @@ const Navbar = () => {
 										<a
 											href={item.href}
 											onClick={(e) => handleLinkClick(e, item.href)}
-											className="text-sm hover:text-white">
+											className="text-sm hover:text-stone-700">
 											{item.label}
 										</a>
 									</li>
