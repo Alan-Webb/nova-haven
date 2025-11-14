@@ -60,6 +60,9 @@ const Navbar = () => {
 								))}
 							</ul>
 						</div>
+						<button className="border bg-stone-400 rounded-xl px-4 py-2 ms-24 cursor-pointer hover:bg-stone-500">
+							Sign Up
+						</button>
 					</div>
 				</div>
 				{/* Mobile Menu */}
@@ -67,7 +70,9 @@ const Navbar = () => {
 					<div className="flex items-center justify-center">
 						<div>
 							<a href="#">
-								<p className="uppercase pe-48">Nova Haven</p>
+								<p className="uppercase pe-60 hover:text-stone-600 cursor-pointer">
+									Nova Haven
+								</p>
 							</a>
 						</div>
 						<div className="flex items-center">
@@ -88,7 +93,7 @@ const Navbar = () => {
 								<li key={index}>
 									<a
 										href={item.href}
-										className="block w-full text-lg ps-16 pb-4 hover:text-pink-400"
+										className="block w-full text-lg ps-16 pb-4 hover:text-stone-600"
 										onClick={(e) => handleLinkClick(e, item.href)}>
 										{item.label}
 									</a>
