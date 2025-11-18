@@ -30,7 +30,7 @@ const Navbar = () => {
 		<div>
 			<nav className="fixed w-full z-50">
 				{/* Desktop Menu */}
-				<div className="mx-auto hidden lg:flex items-center justify-center bg-stone-300 border-b border-black py-3 backdrop-blur-lg">
+				<div className="mx-auto hidden md:flex items-center justify-center bg-stone-300 border-b border-black py-3 backdrop-blur-lg">
 					<div className="flex items-center justify-between gap-6">
 						<div>
 							<div>
@@ -66,34 +66,27 @@ const Navbar = () => {
 					</div>
 				</div>
 				{/* Mobile Menu */}
-				<div className="backdrop-blur-md lg:hidden">
-					<div className="flex items-center justify-center">
-						<div>
-							<a href="#">
-								<p className="uppercase pe-60 hover:text-stone-600 cursor-pointer">
-									Nova Haven
-								</p>
-							</a>
-						</div>
+				<div className="bg-stone-300 md:hidden">
+					<div className="flex items-center justify-end me-12 py-2">
 						<div className="flex items-center">
 							<button
 								onClick={toggleMobileMenu}
 								className="focus:outline-none lg:hidden">
 								{isMobileMenuOpen ? (
-									<FaTimes className="m-2 h-6 w-5 cursor-pointer" />
+									<FaTimes className="m-2 h-6 w-5 cursor-pointer hover:text-stone-600" />
 								) : (
-									<FaBars className="m-2 h-6 w-5 cursor-pointer" />
+									<FaBars className="m-2 h-6 w-5 cursor-pointer hover:text-stone-600" />
 								)}
 							</button>
 						</div>
 					</div>
 					{isMobileMenuOpen && (
-						<ul className="ml-4 mt-4 flex flex-col gap-4 backdrop-blur-md">
+						<ul className="ml-4 mt-4 py-6 flex flex-col gap-4 backdrop-blur-md">
 							{LINKS.map((item, index) => (
 								<li key={index}>
 									<a
 										href={item.href}
-										className="block w-full text-lg ps-16 pb-4 hover:text-stone-600"
+										className="block w-full text-lg uppercase font-semibold ps-16 pb-4 hover:text-stone-600"
 										onClick={(e) => handleLinkClick(e, item.href)}>
 										{item.label}
 									</a>
