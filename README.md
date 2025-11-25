@@ -4,7 +4,7 @@ real estate website
 
 ## Built with
 
-- Nextjs
+- React
 - Tailwindcss
 
 ## Author
