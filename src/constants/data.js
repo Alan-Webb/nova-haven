@@ -23,6 +23,12 @@ export const navItems = [
 	},
 ];
 
+export const heroItems = {
+	header: "Find Your Home Among the Stars with Nova Haven",
+	heroText:
+		"Your journey to the perfect property begins here. Explore our exclusive listings to find a home that's not just a place to live, but a new world to experience.",
+};
+
 export const heroStats = [
 	{
 		id: 1,

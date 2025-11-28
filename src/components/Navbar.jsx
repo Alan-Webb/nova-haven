@@ -19,7 +19,7 @@ const Header = () => {
 						alt="logo"
 						width={68}
 						height={34}
-						className="inline-block bg-yellow-500 border border-white rounded-full p-2 m-3"
+						className="inline-block bg-gray-500 border border-white rounded-full p-2 m-3"
 					/>
 					<p className="inline-block uppercase text-2xl ms-3 text-white">
 						Nova Haven
@@ -34,7 +34,6 @@ const Header = () => {
 						className="absolute top-10 right-10 ring ring-grey-30">
 						<FaTimes size={30} className="hover:text-white" />
 					</button>
-
 					{/* List */}
 					<ul className="text-center space-y-8 my-15">
 						{navItems.map((item) => (
@@ -47,7 +46,7 @@ const Header = () => {
 							</li>
 						))}
 					</ul>
-
+					yellow
 					{/* Contact Btn */}
 					<button className="primary-btn mx-auto">Contact Us</button>
 				</nav>
