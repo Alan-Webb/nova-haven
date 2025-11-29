@@ -47,6 +47,29 @@ export const heroStats = [
 	},
 ];
 
+export const CardItems = [
+	{
+		id: 1,
+		icon: "./src/assets/icon1.webp",
+		label: "Find Your Dream Home",
+	},
+	{
+		id: 2,
+		icon: "./src/assets/icon2.webp",
+		label: "Unlock Property Value",
+	},
+	{
+		id: 3,
+		icon: "./src/assets/icon3.webp",
+		label: "Effortless Property Management",
+	},
+	{
+		id: 4,
+		icon: "./src/assets/icon4.webp",
+		label: "Smart Investments, Informed Decisions",
+	},
+];
+
 export const socialIcons = [
 	{
 		icon: FaFacebook,

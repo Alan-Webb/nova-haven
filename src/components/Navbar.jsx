@@ -46,7 +46,6 @@ const Header = () => {
 							</li>
 						))}
 					</ul>
-					yellow
 					{/* Contact Btn */}
 					<button className="primary-btn mx-auto">Contact Us</button>
 				</nav>
