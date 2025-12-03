@@ -12,19 +12,29 @@ const Featured = () => {
 					link="View All Properties"
 				/>
 				{/* Card */}
-				<div className="mt-10 lg:mt-16">
+				<div className="flex flex-col gap-12 mt-10 lg:mt-16">
 					{featuredItems.map((item) => (
-						<div key={item.id} className="border border-stone-300 p-6 rounded-xl">
+						<div
+							key={item.id}
+							className="flex flex-1 flex-col md:flex-row gap-6  border border-stone-300 p-6 rounded-xl">
 							<div>
-								<img src={item.img} alt={item.title} width={354} height={255} className="w-full h-full object-cover rounded-xl"/>
+								<img
+									src={item.img}
+									alt={item.title}
+									width={354}
+									height={255}
+									className="mx-auto rounded-xl"
+								/>
 							</div>
 							{/* Content */}
-							<div className="mt-3.5">
+							<div className="mt-3.5 sm:mt-12 md:mt-24 mx-auto text-center">
 								<h4>{item.title}</h4>
 								<p>{item.text}</p>
-								<div className="flex items-center flex-wrap">
+								<div className="flex justify-center gap-1.5 my-5 text-white">
 									{item.icons.map((item, index) => (
-										<div key={index}>
+										<div
+											key={index}
+											className="ring ring-stone-300 rounded-[28px] flex gap-1.5 p-3 bg-stone-600">
 											<span>
 												<img
 													src={item.icon}
@@ -33,14 +43,15 @@ const Featured = () => {
 													height={20}
 												/>
 											</span>
-											<p>{item.label}</p>
+											<p className="text-sm">{item.label}</p>
 										</div>
 									))}
 								</div>
-
-								<div>
-									<p>
-										Price <span>{item.price}</span>
+								{/* Price & Button */}
+								<div className="flex flex-col gap-4">
+									<p className="flex justify-center gap-3">
+										Price{""}
+										<span className="text-white text-lg">{item.price}</span>
 									</p>
 									<button className="secondary-btn">View All Properties</button>
 								</div>
