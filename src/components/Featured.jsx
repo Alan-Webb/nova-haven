@@ -1,5 +1,8 @@
 import Title from "./Title";
 import {featuredItems} from "../constants/data";
+import {Swiper, SwiperSlide} from "swiper/react";
+import "swiper/css";
+import {Autoplay} from "swiper/modules";
 
 const Featured = () => {
 	return (
@@ -11,10 +14,13 @@ const Featured = () => {
 					text="Explore our handpicked selection of featured properties. Each listing offers a glimpse into exceptional homes and available throughout the Solar System."
 					link="View All Properties"
 				/>
-				{/* Card */}
-				<div className="flex flex-col gap-12 mt-10 lg:mt-16">
+				{/* Card Wrapper */}
+				<Swiper
+					modules={[Navigation, Autoplay]}
+					className="flex flex-col gap-12 mt-10 lg:mt-16">
 					{featuredItems.map((item) => (
-						<div
+						// Card
+						<SwiperSlide
 							key={item.id}
 							className="flex flex-1 flex-col md:flex-row gap-6  border border-stone-300 p-6 rounded-xl">
 							<div>
@@ -56,9 +62,9 @@ const Featured = () => {
 									<button className="secondary-btn">View All Properties</button>
 								</div>
 							</div>
-						</div>
+						</SwiperSlide>
 					))}
-				</div>
+				</Swiper>
 			</div>
 		</section>
 	);
