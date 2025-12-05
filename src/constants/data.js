@@ -1,215 +1,172 @@
-import {FaFacebook, FaLinkedin, FaTwitter, FaYoutube} from "react-icons/fa";
+import image1 from "../public/img1.webp";
+import image2 from "../public/img2.webp";
+import image3 from "../public/img3.webp";
+import image4 from "../public/img4.webp";
+import image5 from "../public/img5.webp";
+import image6 from "../public/img6.webp";
+import image7 from "../public/img7.webp";
+import image8 from "../public/img8.webp";
+import image9 from "../public/img9.webp";
+import image10 from "../public/img10.webp";
+import image11 from "../public/img11.webp";
+import image12 from "../public/img12.webp";
 
-export const navItems = [
+const properties = [
 	{
 		id: 1,
-		label: "Home",
-		href: "#home",
+		image: image1,
+		price: "$950,000",
+		title: "Elegant Coastal Villa",
+		location: "123 Luxury Lane, Beverly Hills",
+		description:
+			"An elegant coastal villa with panoramic ocean views, featuring a spacious terrace and luxurious interiors.",
+		beds: 4,
+		baths: 3,
+		sqft: 2800,
+		images: [image3, image4, image5, image6],
 	},
 	{
 		id: 2,
-		label: "About Us",
-		href: "#about",
+		image: image2,
+		price: "$1,450,000",
+		title: "Beachfront Paradise",
+		location: "456 Beach Drive, Malibu",
+		description:
+			"A stunning beachfront property with direct access to the sand, perfect for sunbathing and water sports.",
+		beds: 5,
+		baths: 4,
+		sqft: 3500,
+		images: [image5, image1, image9, image7],
 	},
 	{
 		id: 3,
-		label: "Properties",
-		href: "#properties",
+		image: image3,
+		price: "$850,000",
+		title: "Modern Urban Loft",
+		location: "789 City Center, Downtown",
+		description:
+			"A modern loft in the heart of the city, featuring high ceilings and an open floor plan with stylish finishes.",
+		beds: 3,
+		baths: 2,
+		sqft: 2000,
+		images: [image3, image6, image5, image1],
 	},
 	{
 		id: 4,
-		label: "Services",
-		href: "#services",
-	},
-];
-
-export const heroItems = {
-	header: "Find Your Home Among the Stars with Nova Haven",
-	heroText:
-		"Your journey to the perfect property begins here. Explore our exclusive listings to find a home that's not just a place to live, but a new world to experience.",
-};
-
-export const heroStats = [
-	{
-		id: 1,
-		value: 200,
-		label: "Inter Solar Residents",
-	},
-	{
-		id: 2,
-		value: 10,
-		label: "Solar System Wide Homes",
-	},
-	{
-		id: 3,
-		value: 160,
-		label: "Years of Experience",
-	},
-];
-
-export const CardItems = [
-	{
-		id: 1,
-		icon: "./src/assets/icon1.webp",
-		label: "Find Your Dream Home",
-	},
-	{
-		id: 2,
-		icon: "./src/assets/icon2.webp",
-		label: "Unlock Property Value",
-	},
-	{
-		id: 3,
-		icon: "./src/assets/icon3.webp",
-		label: "Effortless Property Management",
-	},
-	{
-		id: 4,
-		icon: "./src/assets/icon4.webp",
-		label: "Smart Investments, Informed Decisions",
-	},
-];
-
-export const featuredItems = [
-	{
-		id: 1,
-		img: "./src/assets/prop-1.webp",
-		title: "Solace Dome Residences – Mars Sector 3",
-		text: "A stunning 4-bedroom, 3-bathroom villa in a peaceful Martian neighborhood...",
-		icons: [
-			{
-				icon: "./src/assets/prop-icon-1.svg",
-				label: "4-Bedroom",
-			},
-			{
-				icon: "./src/assets/prop-icon-2.svg",
-				label: "3-Bathroom",
-			},
-			{
-				icon: "./src/assets/prop-icon-3.svg",
-				label: "Villa",
-			},
-		],
-		price: 550000,
-	},
-	{
-		id: 2,
-		img: "./src/assets/prop-2.webp",
-		title: "Helios Station - Solar Lagrange 4",
-		text: "A chic and fully-furnished 2-bedroom apartment with solar views...",
-		icons: [
-			{
-				icon: "./src/assets/prop-icon-1.svg",
-				label: "2-Bedroom",
-			},
-			{
-				icon: "./src/assets/prop-icon-2.svg",
-				label: "2-Bathroom",
-			},
-			{
-				icon: "./src/assets/prop-icon-3.svg",
-				label: "Villa",
-			},
-		],
-		price: 550000,
-	},
-	{
-		id: 3,
-		img: "./src/assets/prop-3.webp",
-		title: "The Asimov Station Quarters - Enceladus",
-		text: "An elegant 3-bedroom, 2.5-bathroom domicile in Saturn's moon...",
-		icons: [
-			{
-				icon: "./src/assets/prop-icon-1.svg",
-				label: "3-Bedroom",
-			},
-			{
-				icon: "./src/assets/prop-icon-2.svg",
-				label: "3-Bathroom",
-			},
-			{
-				icon: "./src/assets/prop-icon-3.svg",
-				label: "Villa",
-			},
-		],
-		price: 550000,
-	},
-	{
-		id: 4,
-		img: "./src/assets/prop-4.webp",
-		title: "Elysium Ridge Outpost – Titan Colony",
-		text: "Modern 5-bedroom, 4-bathroom cabin with a gorgeous view of Saturn...",
-		icons: [
-			{
-				icon: "./src/assets/prop-icon-1.svg",
-				label: "5-Bedroom",
-			},
-			{
-				icon: "./src/assets/prop-icon-2.svg",
-				label: "4-Bathroom",
-			},
-			{
-				icon: "./src/assets/prop-icon-3.svg",
-				label: "Cabin",
-			},
-		],
-		price: 750000,
+		image: image4,
+		price: "$1,100,000",
+		title: "Charming Mountain Retreat",
+		location: "321 Highland Road, Hollywood Hills",
+		description:
+			"A charming retreat nestled in the mountains, offering breathtaking views and a cozy fireplace for winter nights.",
+		beds: 4,
+		baths: 3.5,
+		sqft: 3200,
+		images: [image2, image4, image5, image12],
 	},
 	{
 		id: 5,
-		img: "./src/assets/prop-5.webp",
-		title: "Aetherline Sky Lofts – Venus Aerostat District",
-		text: "Sleek 1-bedroom loft in the heart of Venus cloud district with industrial design elements...",
-		icons: [
-			{
-				icon: "./src/assets/prop-icon-1.svg",
-				label: "1-Bedroom",
-			},
-			{
-				icon: "./src/assets/prop-icon-2.svg",
-				label: "1-Bathroom",
-			},
-			{
-				icon: "./src/assets/prop-icon-3.svg",
-				label: "Loft",
-			},
-		],
-		price: 320000,
+		image: image5,
+		price: "$1,800,000",
+		title: "Smart Luxury Home",
+		location: "567 Tech Avenue, Silicon Valley",
+		description:
+			"A state-of-the-art smart home with cutting-edge technology and eco-friendly features, designed for modern living.",
+		beds: 6,
+		baths: 5,
+		sqft: 4500,
+		images: [image8, image4, image5, image10],
 	},
 	{
 		id: 6,
-		img: "./src/assets/prop-6.webp",
-		title: "Atlas Peaks Bio-Habitat – Europa",
-		text: "Spacious 4-bedroom, 3-bathroom home with a large backyard and view of Jupiter...",
-		icons: [
-			{
-				icon: "./src/assets/prop-icon-1.svg",
-				label: "4-Bedroom",
-			},
-			{
-				icon: "./src/assets/prop-icon-2.svg",
-				label: "3-Bathroom",
-			},
-			{
-				icon: "./src/assets/prop-icon-3.svg",
-				label: "House",
-			},
-		],
-		price: 495000,
+		image: image6,
+		price: "$700,000",
+		title: "Family-Friendly Haven",
+		location: "890 Suburban Lane, Santa Monica",
+		description:
+			"A family-friendly haven with a large backyard, perfect for kids and pets, located in a quiet neighborhood.",
+		beds: 3,
+		baths: 2,
+		sqft: 2550,
+		images: [image10, image4, image5, image8],
+	},
+	{
+		id: 7,
+		image: image7,
+		price: "$720,000",
+		title: "Cozy Cottage Retreat",
+		location: "890 Suburban Lane, Santa Monica",
+		description:
+			"A cozy cottage retreat with a charming garden, ideal for relaxing weekends and family gatherings.",
+		beds: 3,
+		baths: 2,
+		sqft: 2500,
+		images: [image5, image7, image12, image1],
+	},
+	{
+		id: 8,
+		image: image8,
+		price: "$740,000",
+		title: "Stylish Family Home",
+		location: "890 Suburban Lane, Santa Monica",
+		description:
+			"A stylish family home with modern amenities and a spacious layout, perfect for entertaining guests.",
+		beds: 3,
+		baths: 2,
+		sqft: 2400,
+		images: [image3, image4, image5, image9],
+	},
+	{
+		id: 9,
+		image: image9,
+		price: "$760,000",
+		title: "Chic Suburban Retreat",
+		location: "890 Suburban Lane, Santa Monica",
+		description:
+			"A chic suburban retreat with a contemporary design, featuring a large deck for outdoor entertaining.",
+		beds: 3,
+		baths: 2,
+		sqft: 2150,
+		images: [image4, image7, image5, image11],
+	},
+	{
+		id: 10,
+		image: image10,
+		price: "$780,000",
+		title: "Elegant Family Residence",
+		location: "890 Suburban Lane, Santa Monica",
+		description:
+			"An elegant family residence with spacious living areas and a beautifully landscaped yard, perfect for family life.",
+		beds: 3,
+		baths: 2,
+		sqft: 2850,
+		images: [image2, image4, image5, image12],
+	},
+	{
+		id: 11,
+		image: image11,
+		price: "$800,000",
+		title: "Charming Craftsman Home",
+		location: "890 Suburban Lane, Santa Monica",
+		description:
+			"A charming craftsman home with original woodwork and a welcoming front porch, ideal for family gatherings.",
+		beds: 3,
+		baths: 2,
+		sqft: 2200,
+		images: [image1, image4, image5, image7],
+	},
+	{
+		id: 12,
+		image: image12,
+		price: "$820,000",
+		title: "Spacious Family Retreat",
+		location: "890 Suburban Lane, Santa Monica",
+		description:
+			"A spacious family retreat with ample room for everyone, featuring a large backyard and a cozy atmosphere.",
+		beds: 3,
+		baths: 2,
+		sqft: 2600,
+		images: [image5, image4, image5, image8],
 	},
 ];
-
-export const socialIcons = [
-	{
-		icon: FaFacebook,
-	},
-	{
-		icon: FaLinkedin,
-	},
-	{
-		icon: FaTwitter,
-	},
-	{
-		icon: FaYoutube,
-	},
-];
+export default properties;
