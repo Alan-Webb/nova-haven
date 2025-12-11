@@ -4,7 +4,7 @@ const Home = () => {
 	return (
 		<div className="relative h-[100vh]">
 			<img src={homeImage} alt="Nova Haven Venus Office" />
-			<div className="absolute"></div>
+			<div className="absolute inset-0"></div>
 		</div>
 	);
 };
