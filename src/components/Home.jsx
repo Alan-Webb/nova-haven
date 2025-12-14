@@ -3,7 +3,7 @@ import {FaLocationDot} from "react-icons/fa6";
 
 const Home = () => {
 	return (
-		<div className="relative h-screen">
+		<div className="relative h-[104vh] border-b border-blue-500">
 			<img src={homeImage} alt="Nova Haven Venus Office" />
 			<div className="absolute inset-0 bg-linear-to-t from-black/60 via-black/40 to-black/60 flex items-center justify-center">
 				<div className="text-center text-white max-w-5xl px-4">

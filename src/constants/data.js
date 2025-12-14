@@ -1,15 +1,15 @@
-import image1 from "../public/img1.webp";
-import image2 from "../public/img2.webp";
-import image3 from "../public/img3.webp";
-import image4 from "../public/img4.webp";
-import image5 from "../public/img5.webp";
-import image6 from "../public/img6.webp";
-import image7 from "../public/img7.webp";
-import image8 from "../public/img8.webp";
-import image9 from "../public/img9.webp";
-import image10 from "../public/img10.webp";
-import image11 from "../public/img11.webp";
-import image12 from "../public/img12.webp";
+import image1 from "../assets/img1.webp";
+import image2 from "../assets/img2.webp";
+import image3 from "../assets/img3.webp";
+import image4 from "../assets/img4.webp";
+import image5 from "../assets/img5.webp";
+import image6 from "../assets/img6.webp";
+import image7 from "../assets/img7.webp";
+import image8 from "../assets/img8.webp";
+import image9 from "../assets/img9.webp";
+import image10 from "../assets/img10.webp";
+import image11 from "../assets/img11.webp";
+import image12 from "../assets/img12.webp";
 
 const properties = [
 	{
@@ -23,6 +23,7 @@ const properties = [
 		beds: 4,
 		baths: 3,
 		sqft: 2800,
+		images: [image3, image4, image5, image6],
 	},
 	{
 		id: 2,
@@ -35,6 +36,7 @@ const properties = [
 		beds: 5,
 		baths: 4,
 		sqft: 3500,
+		images: [image5, image1, image9, image7],
 	},
 	{
 		id: 3,
@@ -47,6 +49,7 @@ const properties = [
 		beds: 3,
 		baths: 2,
 		sqft: 2000,
+		images: [image3, image6, image5, image1],
 	},
 	{
 		id: 4,
@@ -59,6 +62,7 @@ const properties = [
 		beds: 4,
 		baths: 3.5,
 		sqft: 3200,
+		images: [image2, image4, image5, image12],
 	},
 	{
 		id: 5,
@@ -71,6 +75,7 @@ const properties = [
 		beds: 6,
 		baths: 5,
 		sqft: 4500,
+		images: [image8, image4, image5, image10],
 	},
 	{
 		id: 6,
@@ -83,6 +88,7 @@ const properties = [
 		beds: 3,
 		baths: 2,
 		sqft: 2550,
+		images: [image10, image4, image5, image8],
 	},
 	{
 		id: 7,
@@ -95,6 +101,7 @@ const properties = [
 		beds: 3,
 		baths: 2,
 		sqft: 2500,
+		images: [image5, image7, image12, image1],
 	},
 	{
 		id: 8,
@@ -107,6 +114,7 @@ const properties = [
 		beds: 3,
 		baths: 2,
 		sqft: 2400,
+		images: [image3, image4, image5, image9],
 	},
 	{
 		id: 9,
@@ -119,6 +127,7 @@ const properties = [
 		beds: 3,
 		baths: 2,
 		sqft: 2150,
+		images: [image4, image7, image5, image11],
 	},
 	{
 		id: 10,
@@ -131,6 +140,7 @@ const properties = [
 		beds: 3,
 		baths: 2,
 		sqft: 2850,
+		images: [image2, image4, image5, image12],
 	},
 	{
 		id: 11,
@@ -143,6 +153,7 @@ const properties = [
 		beds: 3,
 		baths: 2,
 		sqft: 2200,
+		images: [image1, image4, image5, image7],
 	},
 	{
 		id: 12,
@@ -155,6 +166,7 @@ const properties = [
 		beds: 3,
 		baths: 2,
 		sqft: 2600,
+		images: [image5, image4, image5, image8],
 	},
 ];
 export default properties;
