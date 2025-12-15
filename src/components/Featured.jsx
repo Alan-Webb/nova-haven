@@ -1,7 +1,7 @@
 import properties from "../constants/data";
 import {FaBath, FaBed, FaHeart, FaLocationDot, FaRuler} from "react-icons/fa6";
 
-const Featured = () => {
+const Featured = ({setSelectedProperty}) => {
 	return (
 		<section className="max-w-7xl mx-auto py-16 px-4 bg-blue-300">
 			<h1 className="text-3xl text-center font-bold mb-8">
@@ -12,6 +12,7 @@ const Featured = () => {
 				{properties.map((property) => (
 					<div
 						key={property.id}
+						onClick={() => setSelectedProperty(property)}
 						className="bg-white rounded-2xl drop-shadow-lg overflow-hidden hover:drop-shadow-xl hover:scale-105 transition-all duration-300 relative group cursor-pointer">
 						{/* Image */}
 						<div className="relative">
