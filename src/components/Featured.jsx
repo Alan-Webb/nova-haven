@@ -46,18 +46,14 @@ const Featured = ({setSelectedProperty}) => {
 									<span className="text-gray-600">{property.beds}</span>
 								</div>
 
-								<div className="flex justify-between items-center p-3 bg-blue-50 rounded-lg">
-									<div className="flex items-center gap-2 ms-5">
-										<FaBath className="text-blue-600" />
-										<span className="text-gray-600">{property.baths}</span>
-									</div>
+								<div className="flex items-center gap-2 ms-5">
+									<FaBath className="text-blue-600" />
+									<span className="text-gray-600">{property.baths}</span>
 								</div>
 
-								<div className="flex justify-between items-center p-3 bg-blue-50 rounded-lg">
-									<div className="flex items-center gap-2">
-										<FaRuler className="text-blue-600" />
-										<span className="text-gray-600">{property.sqft}</span>
-									</div>
+								<div className="flex items-center gap-2">
+									<FaRuler className="text-blue-600" />
+									<span className="text-gray-600">{property.sqft}</span>
 								</div>
 							</div>
 						</div>
