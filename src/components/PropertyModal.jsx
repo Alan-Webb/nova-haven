@@ -105,8 +105,12 @@ const PropertyModal = ({onClose, properties}) => {
 					</div>
 					{/* Description */}
 					<div className="mb-6">
-						<p>{currentProperty.description}</p>
+						<p className="text-gray-600">{currentProperty.description}</p>
 					</div>
+					{/* Contact Btn */}
+					<button className="w-full bg-blue-600 text-white py-3 rounded-2xl font-semibold hover:bg-blue-500 transition-colors duration-300 cursor-pointer">
+						Contact Agent
+					</button>
 				</div>
 			</div>
 		</div>
