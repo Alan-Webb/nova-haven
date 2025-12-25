@@ -3,7 +3,7 @@ import {FaBath, FaBed, FaHeart, FaLocationDot, FaRuler} from "react-icons/fa6";
 
 const Featured = ({setSelectedProperty}) => {
 	return (
-		<section className="max-w-7xl mx-auto py-16 px-4 bg-blue-300">
+		<section className="max-w-7xl mx-auto py-16 px-4">
 			<h1 className="text-3xl text-center font-bold mb-8">
 				Featured Properties
 			</h1>
