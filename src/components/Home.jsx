@@ -6,7 +6,7 @@ const Home = () => {
 		<div className="relative border-b border-blue-500">
 			<img src={homeImage} alt="Nova Haven Venus Office" />
 			<div className="absolute inset-0 bg-linear-to-t from-black/60 via-black/40 to-black/60 flex items-center justify-center">
-				<div className="text-center text-white max-w-5xl px-4 lg:-mt-20">
+				<div className="text-center text-white max-w-5xl px-4 lg:-mt-20 xl:-mt-120">
 					<h1 className="text-2xl sm:text-4xl md:text-6xl font-bold mt-8 mb-4 bg-linear-to-r from-sky-300 via-sky-400 to-sky-500 bg-clip-text text-transparent tracking-tight p-3">
 						Strategic housing solutions for a multi-planet future
 					</h1>
