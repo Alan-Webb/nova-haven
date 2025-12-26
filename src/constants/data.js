@@ -11,6 +11,19 @@ import image10 from "../assets/img10.webp";
 import image11 from "../assets/img11.webp";
 import image12 from "../assets/img12.webp";
 
+import interiorImg1 from "../assets/interiorImage1.webp";
+import interiorImg2 from "../assets/interiorImage2.webp";
+import interiorImg3 from "../assets/interiorImage3.webp";
+import interiorImg4 from "../assets/interiorImage4.webp";
+import interiorImg5 from "../assets/interiorImage5.webp";
+import interiorImg6 from "../assets/interiorImage6.webp";
+import interiorImg7 from "../assets/interiorImage7.webp";
+import interiorImg8 from "../assets/interiorImage8.webp";
+import interiorImg9 from "../assets/interiorImage9.webp";
+import interiorImg10 from "../assets/interiorImage10.webp";
+import interiorImg11 from "../assets/interiorImage11.webp";
+import interiorImg12 from "../assets/interiorImage12.webp";
+
 const properties = [
 	{
 		id: 1,
@@ -23,7 +36,7 @@ const properties = [
 		beds: 4,
 		baths: 3,
 		sqft: 2800,
-		images: [image3, image4, image5, image6],
+		images: [image1, interiorImg4, interiorImg5, interiorImg6],
 	},
 	{
 		id: 2,
@@ -36,7 +49,7 @@ const properties = [
 		beds: 5,
 		baths: 4,
 		sqft: 3500,
-		images: [image5, image1, image9, image7],
+		images: [image2, interiorImg2, interiorImg9, interiorImg7],
 	},
 	{
 		id: 3,
@@ -49,7 +62,7 @@ const properties = [
 		beds: 3,
 		baths: 2,
 		sqft: 2000,
-		images: [image3, image6, image5, image1],
+		images: [image3, interiorImg6, interiorImg5, interiorImg1],
 	},
 	{
 		id: 4,
@@ -62,7 +75,7 @@ const properties = [
 		beds: 4,
 		baths: 3.5,
 		sqft: 3200,
-		images: [image2, image4, image5, image12],
+		images: [image4, interiorImg4, interiorImg5, interiorImg12],
 	},
 	{
 		id: 5,
@@ -75,7 +88,7 @@ const properties = [
 		beds: 6,
 		baths: 5,
 		sqft: 4500,
-		images: [image8, image4, image5, image10],
+		images: [image5, interiorImg3, interiorImg5, interiorImg10],
 	},
 	{
 		id: 6,
@@ -88,7 +101,7 @@ const properties = [
 		beds: 3,
 		baths: 2,
 		sqft: 2550,
-		images: [image10, image4, image5, image8],
+		images: [image6, interiorImg4, interiorImg5, interiorImg8],
 	},
 	{
 		id: 7,
@@ -101,7 +114,7 @@ const properties = [
 		beds: 3,
 		baths: 2,
 		sqft: 2500,
-		images: [image5, image7, image12, image1],
+		images: [image7, interiorImg7, interiorImg12, interiorImg1],
 	},
 	{
 		id: 8,
@@ -114,7 +127,7 @@ const properties = [
 		beds: 3,
 		baths: 2,
 		sqft: 2400,
-		images: [image3, image4, image5, image9],
+		images: [image8, interiorImg4, interiorImg5, interiorImg9],
 	},
 	{
 		id: 9,
@@ -127,7 +140,7 @@ const properties = [
 		beds: 3,
 		baths: 2,
 		sqft: 2150,
-		images: [image4, image7, image5, image11],
+		images: [image9, interiorImg7, interiorImg5, interiorImg11],
 	},
 	{
 		id: 10,
@@ -140,7 +153,7 @@ const properties = [
 		beds: 3,
 		baths: 2,
 		sqft: 2850,
-		images: [image2, image4, image5, image12],
+		images: [image10, interiorImg4, interiorImg5, interiorImg12],
 	},
 	{
 		id: 11,
@@ -153,7 +166,7 @@ const properties = [
 		beds: 3,
 		baths: 2,
 		sqft: 2200,
-		images: [image1, image4, image5, image7],
+		images: [image11, interiorImg4, interiorImg5, interiorImg7],
 	},
 	{
 		id: 12,
@@ -166,7 +179,7 @@ const properties = [
 		beds: 3,
 		baths: 2,
 		sqft: 2600,
-		images: [image5, image4, image5, image8],
+		images: [image12, interiorImg4, interiorImg5, interiorImg8],
 	},
 ];
 export default properties;
