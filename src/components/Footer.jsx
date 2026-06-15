@@ -49,6 +49,10 @@ const Footer = () => {
 					</div>
 				</div>
 			</div>
+			{/* Copyright */}
+			<p className="text-sm text-center font-medium mb-2">
+				&copy; {new Date().getFullYear()} Nova Haven All Rights Reserved
+			</p>
 		</footer>
 	);
 };
